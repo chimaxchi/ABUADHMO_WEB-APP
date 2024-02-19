@@ -1,36 +1,13 @@
-body {
-  background-color: #463d36;
-  color: #463d36;
-}
-.container {
-  background-color: aliceblue;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
   width: 600px;
-  margin: 100px auto;
-  border-radius: 10px;
-  padding: 40px;
+  margin: auto;
+  margin-top: 50px;
 }
-.container button {
-  background-color: #463d36;
-  color: aliceblue;
-  text-transform: uppercase;
-  font-size: 24px;
-  padding: 20px 30px;
 
-  margin-left: 40%;
-}
-.container h1 {
-  color: red;
-  font-size: 28px;
-  text-transform: uppercase;
-  margin: 0;
-  text-align: center;
-}
-.container h2 {
-  font-size: 48px;
-  text-transform: uppercase;
-  margin: 0;
-}
-.container p {
-  font-size: 28px;
-  text-transform: capitalize;
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
 }

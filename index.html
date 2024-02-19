@@ -2,108 +2,635 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abuad HMO: Nigeria's number 1 HealthCare Provider</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <script></script>
-    <link
-      rel="shortcut icon"
-      href="/ABUADHMO_WEB-APP/images/favicon.ico"
-      type="image/x-icon"
-    />
-  </head>
-  <body>
-    <header>
-      <img src="/ABUADHMO_WEB-APP/images/logo.png" alt="" />
-      <h1>Welcome To ABUAD HEALTHCARE</h1>
-      <h2>Your Partner in Health and Wellness</h2>
-      <hr />
 
-      <!-- begining of nav section -->
-      <nav aria-label="primary-navigation" class="header">
-        <ul>
-          <li><a href="/ABUADHMO_WEB-APP/index.html">Home</a></li>
-          <li><a href="/ABUADHMO_WEB-APP/about us.html">About Us</a></li>
-          <li>
-            <a href="/ABUADHMO_WEB-APP/Health Plans.html">Health Plans</a>
-          </li>
-          <li>
-            <a href="/ABUADHMO_WEB-APP/hospital networks.html"
-              >List Of Hospitals & Locations</a
-            >
-          </li>
-          <li><a href="/ABUADHMO_WEB-APP/Resources.html">Resources</a></li>
-        </ul>
-      </nav>
-      <!-- end of nav section -->
-      <hr />
-    </header>
-    <!-- end of header section -->
-    <main>
-      <article>
-        <h3>Get Started</h3>
-        <p>
-          Invest in your health today. Join ABUAD HEALTHCARE and experience the
-          benefits of quality healthcare.
-        </p>
-        <figure>
-          <img
-            src="/ABUADHMO_WEB-APP/images/black-family.png"
-            alt="health-insurance"
-            width="500px"
-          />
-          <figcaption>
-            Comprehensive Health Insurance Programme For You
-          </figcaption>
-        </figure>
-      </article>
-      <br />
-      <hr />
-      
-      <section>
-        <h3>OUR HEALTH PLANS</h3>
-        <p>
-          Get Discounted rate when you purchase any Of our well tailored plans
-          to suite your personal, family or oganization insurance needs
-        </p>
-        <div>
-          <img
-            src="/ABUADHMO_WEB-APP/images/officebusinessmeeting.jpg"
-            alt="office business meeting"
-          />
-          <br />
-          <a href="/ABUADHMO_WEB-APP/Health Plans.html"
-            >coperate health-insurance</a
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Abuad HMO: Nigeria's number 1 HealthCare Provider</title>
+  </head>
+
+  <body>
+    <!-- begining of nav section -->
+    <!-- <div class="nav-container"> -->
+    <nav>
+      <ul class="nav-container">
+        <!-- <img src="/logo.png" height="" alt=""> -->
+        <li class="primary-navbar">
+          <a href="/ABUADHMO_WEB-APP/index.html">Home</a>
+        </li>
+        <li class="primary-navbar">
+          <a href="/ABUADHMO_WEB-APP/about us.html">About Us</a>
+        </li>
+        <li class="primary-navbar">
+          <a href="/ABUADHMO_WEB-APP/Health Plans.html">Health Plans</a>
+        </li>
+        <li class="primary-navbar">
+          <a href="/ABUADHMO_WEB-APP/hospital networks.html"
+            >Provider Network</a
           >
+        </li>
+        <li class="primary-navbar">
+          <a href="/ABUADHMO_WEB-APP/Resources.html">Resources</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- end of nav section -->
+    <div class="container">
+      <header>
+        <!-- HERO -->
+        <div class="header-text-box">
+          <h1>Introducing Abuad HMO - Your Pathway to Holistic Health</h1>
+          <p class="header-text">
+            Embark on a transformative journey with ABUAD HealthCare LTD, your
+            trusted partner in holistic health management! At ABUAD HMO, we
+            believe in empowering individuals to take control of their
+            well-being, fostering a community dedicated to achieving optimal
+            health through personalized and innovative solutions. Take Advantage
+            of our affordable health plans that meets your needs. Come on Board
+            today With ABUAD HMO and Enjoy Healthcare like never before.
+          </p>
+          <a class="btn btn--big" href="#">See Our Health Plans</a>
         </div>
-        <div>
-          <img
-            src="/ABUADHMO_WEB-APP/images/individual.jpg"
-            alt="individual plan"
-          />
-          <br>
-          <a href="/ABUADHMO_WEB-APP/Health Plans.html">Individual Plan</a>
-        </div>
-        <div>
-          <img src="/ABUADHMO_WEB-APP/images/family.jpg" alt="" />
-          <br>
-          <a href="/ABUADHMO_WEB-APP/Health Plans.html">Family plan</a>
+        <img src="/ABUADHMO_WEB-APP/images/hero.jpg" alt="Photo" />
+        <!-- END OF HERO -->
+      </header>
+
+      <section>
+        <h2>What makes ABUAD HMO Special</h2>
+        <div class="grid-3-cols">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="features-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+              />
+            </svg>
+            <p class="features-title">
+              <strong>Our Unique Wellness Blueprint</strong>
+            </p>
+            <p class="features-text">
+              Bid farewell to one-size-fits-all approaches! Our cutting-edge
+              health assessments and consultations are tailored to your
+              individual needs, unveiling a personalized wellness blueprint that
+              considers your lifestyle, preferences, and health goals.
+            </p>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="features-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <p class="features-title">
+              <strong>🌐 Access Anytime, Anywhere</strong>
+            </p>
+            <p class="features-text">
+              ABUAD HMO brings health management to your fingertips. With our
+              customer-friendly approach, you can access health care anywhere in
+              Nigeria with our wide coverage networks of hospitals and clinics,
+              connect with health experts, and eeasily enroll with any approved
+              hospital of your choice.
+            </p>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="features-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+            <p class="features-title">
+              <strong>🤝 Expert Guidance Every Step of the Way</strong>
+            </p>
+            <p class="features-text">
+              Our team of experienced health professionals, nutritionists, and
+              fitness experts are here to guide you through your health
+              transformation. Receive personalized advice, actionable plans, and
+              ongoing support, creating a foundation for sustainable well-being.
+            </p>
+          </div>
         </div>
       </section>
-      <article>
-        <h4>testimonials</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus corrupti amet, impedit blanditiis excepturi assumenda necessitatibus quo vitae aspernatur dolore quasi quos, saepe odit accusantium minus? Magnam, sunt laudantium!</p>
-      </article>
-    </main>
-    <hr />
-    <footer id="footer">
-      <form>
-        <input
-          type="BUTTON"
-          value="Back to top of page"
-          onclick="window.location.href='#top'"
-        />
-      </form>
+
+      <!-- TESTIMONIAL SECTION -->
+      <h2 class="clients">What our clients are saying about us</h2>
+      <section class="testimonial-section">
+        <div class="grid-3-cols">
+          <img src="/ABUADHMO_WEB-APP/images/customers.jpg" alt="Obj farms" />
+          <div class="testimonial-box">
+            <h2>"ABUAD Healthcare To The Rescue"</h2>
+            <blockquote class="testimonial-text">
+              ABUAD healthcare has been a game-changer for us as an agro-based
+              client. Their tailored approach helped us integrate healthy
+              practices seamlessly into our busy agricultural lifestyle. Highly
+              recommend for fellow farmers seeking sustainable health solutions.
+            </blockquote>
+            <p class="testimonial-author">
+              &mdash; Obasanjo Farms,ota Ogun State
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- END OF TESTIMONIAL SECTION -->
+
+      <!-- PLAN SECTION AND PRICE TABLE -->
+      <section>
+        <h2 class="clients">Our Health Plans</h2>
+        <h3 class="clients">
+          Get discounts when you enroll your family members in our well
+          structured plan
+        </h3>
+        <!-- <h4>starting from ₦45,000 for individuls</h4> -->
+        <div class="grid-3-cols">
+          <figure class="chair">
+            <img
+              src="/ABUADHMO_WEB-APP/images/basic-plan.jpg"
+              alt="basic-plan"
+            />
+            <div class="chair-box">
+              <h3>AHC BASIC PLAN</h3>
+              <!-- <h4>Tailored for Indviduals </h4> -->
+              <ul class="chair-details">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                    />
+                  </svg>
+                  <!-- Span is a generic INLINE text element, it doesn't have any meaning. It's like a div element, but inline -->
+                  <span>Registration</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>General Outpatient Consultation</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>antenatal Care</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                    />
+                  </svg>
+                  <span>Imunization</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>From ₦45,000</strong>
+                <a href="#" class="btn btn--small">Buy now</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <!-- first picture -->
+            <img
+              src="/ABUADHMO_WEB-APP/images/advantage plan.png"
+              alt="advantage"
+            />
+            <div class="chair-box">
+              <h3>AHCL ADVANTAGE PLAN</h3>
+              <ul class="chair-details">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                    />
+                  </svg>
+                  <!-- Span is a generic INLINE text element, it doesn't have any meaning. It's like a div element, but inline -->
+                  <span>Specialist Consultation</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Primary Optical Care</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Intermidiate Surgeries And procedures</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                    />
+                  </svg>
+                  <span>Physiotherapy</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>From ₦60,000 </strong>
+                <a href="#" class="btn btn--small">Buy Now</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img
+              src="/ABUADHMO_WEB-APP/images/pretigeplan.jpg"
+              alt="prestige plan"
+            />
+            <div class="chair-box">
+              <h3>AHCL PRESTIGE PLAN</h3>
+              <ul class="chair-details">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                    />
+                  </svg>
+                  <span>Fitness & Nutrition Guide</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>HIV & AIDS Counciling</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Annual Routine Examination</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                    />
+                  </svg>
+                  <span>Accident & Emergency | Ambulance service</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>From ₦83,850</strong>
+                <a href="#" class="btn btn--small">BUY Now</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img
+              src="/ABUADHMO_WEB-APP/images/royalplan.jpg"
+              alt="royal plan"
+            />
+            <div class="chair-box">
+              <h3>AHCL ROYAL PALN</h3>
+              <ul class="chair-details">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                    />
+                  </svg>
+                  <span>Annual Routine Physical Examination</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Radiological investigation</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Intensive Care Treatment</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="chair-icon"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                    />
+                  </svg>
+                  <span>Private Ward Admission</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>From ₦128,000</strong>
+                <a href="#" class="btn btn--small">Buy now</a>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+      <h2 class="clients">FAQS</h2>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              What Happens If My Plan Does Not Cover A Particular Ailment?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+          >
+            <div class="accordion-body">
+              <strong>ABUAD Healthcare </strong> in situations like this, will
+              cover a certain percentage of the total cost, usually upto 50%
+              depending on the type of ailment.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              How Frequently Can I Access Care?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <strong>As much as you want</strong> ABUAD healthcare will cover
+              you as long as it is within your plan and coverage period
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              How Promptly Do You respond to Enrollees At Your Care Centers?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <strong>ABUAD Healthcare</strong> works with their partners and
+              proverders to enusre that enrolees Receive care round the clock
+              with Zero hassels, you can always report back if you are not
+              satisfied with the provider
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              Can I Use Any hospital Of My Choice?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <strong>ABUAD Healthcare</strong> Will duely Acredit Any hospital
+              of your choice As long As it meets the standard
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2024 ABUAD healthcare LTD. All rights reserved</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
